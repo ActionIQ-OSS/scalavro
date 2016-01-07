@@ -7,7 +7,7 @@ object Common {
 
   val ORGANIZATION = "co.actioniq"
   val PROJECT_NAME = "scalavro"
-  val PROJECT_VERSION = "0.7.0-actioniq"
+  val PROJECT_VERSION = "0.7.0-c3a666859a5c8a131d138af5f0c3ed744c878636"
 
   val SCALA_VERSION = "2.11.1"
   val SCALA_XML_VERSION = "1.0.2"
