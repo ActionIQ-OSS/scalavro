@@ -1,10 +1,9 @@
-import sbt._
-import Keys._
-
-import com.typesafe.sbt.SbtPgp._
 import com.typesafe.sbt.SbtScalariform._
-import scalariform.formatter.preferences._
+import sbt.Keys._
+import sbt._
 import sbtunidoc.Plugin._
+
+import scalariform.formatter.preferences._
 
 object ScalavroBuild extends Build {
 
@@ -12,7 +11,7 @@ object ScalavroBuild extends Build {
 // PROJECT INFO
 //////////////////////////////////////////////////////////////////////////////
 
-  val ORGANIZATION = "com.gensler"
+  val ORGANIZATION = "co.actioniq"
   val PROJECT_NAME = "scalavro"
   val PROJECT_VERSION = "0.6.3-SNAPSHOT"
   val SCALA_VERSION = "2.10.3"
@@ -22,7 +21,7 @@ object ScalavroBuild extends Build {
 // DEPENDENCY VERSIONS
 //////////////////////////////////////////////////////////////////////////////
 
-  val SPRAY_JSON_VERSION = "1.2.5"
+  val SPRAY_JSON_VERSION = "1.3.2"
   val AVRO_VERSION = "1.7.5"
   val SCALATEST_VERSION = "2.0.M5b"
   val REFLECTIONS_VERSION = "0.9.9-RC1"
@@ -113,17 +112,17 @@ object ScalavroBuild extends Build {
     licenses := Seq(
       "BSD-style" -> url("http://opensource.org/licenses/BSD-2-Clause")
     ),
-    homepage := Some(url("http://genslerappspod.github.io/scalavro/")),
+    homepage := Some(url("https://github.com/ActionIQ/scalavro")),
     pomExtra := (
       <scm>
-        <url>git@github.com:GenslerAppsPod/scalavro.git</url>
-        <connection>scm:git:git@github.com:GenslerAppsPod/scalavro.git</connection>
+        <url>git@github.com:ActionIQ/scalavro.git</url>
+        <connection>scm:git:git@github.com:ActionIQ/scalavro.git</connection>
       </scm>
       <developers>
         <developer>
-          <id>ConnorDoyle</id>
-          <name>Connor Doyle</name>
-          <url>http://gensler.com</url>
+          <id>ActionIQ</id>
+          <name>Action IQ</name>
+          <url>http://actioniq.co</url>
         </developer>
       </developers>
     ),
