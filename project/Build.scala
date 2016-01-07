@@ -5,9 +5,9 @@ import com.typesafe.sbt.SbtScalariform._
 
 object Common {
 
-  val ORGANIZATION = "com.gensler"
+  val ORGANIZATION = "co.actioniq"
   val PROJECT_NAME = "scalavro"
-  val PROJECT_VERSION = "0.7.0-SNAPSHOT"
+  val PROJECT_VERSION = "0.7.0-actioniq"
 
   val SCALA_VERSION = "2.11.1"
   val SCALA_XML_VERSION = "1.0.2"
@@ -16,7 +16,7 @@ object Common {
 // DEPENDENCY VERSIONS
 //////////////////////////////////////////////////////////////////////////////
 
-  val SPRAY_JSON_VERSION = "1.2.6"
+  val SPRAY_JSON_VERSION = "1.3.2"
   val AVRO_VERSION = "1.7.6"
   val SCALATEST_VERSION = "2.2.0"
   val REFLECTIONS_VERSION = "0.9.9-RC1"

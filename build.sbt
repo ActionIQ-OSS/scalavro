@@ -1,4 +1,3 @@
-
 //////////////////////////////////////
 // Root project settings
 //////////////////////////////////////
@@ -56,18 +55,18 @@ licenses in (ThisBuild) := Seq(
       "BSD-style" -> url("http://opensource.org/licenses/BSD-2-Clause")
     )
 
-homepage in (ThisBuild) := Some(url("http://genslerappspod.github.io/scalavro/"))
+homepage in (ThisBuild) := Some(url("https://github.com/ActionIQ/scalavro"))
 
 pomExtra in (ThisBuild) := (
       <scm>
-        <url>git@github.com:GenslerAppsPod/scalavro.git</url>
-        <connection>scm:git:git@github.com:GenslerAppsPod/scalavro.git</connection>
+        <url>git@github.com:ActionIQ/scalavro.git</url>
+        <connection>scm:git:git@github.com:ActionIQ/scalavro.git</connection>
       </scm>
       <developers>
         <developer>
-          <id>ConnorDoyle</id>
-          <name>Connor Doyle</name>
-          <url>http://gensler.com</url>
+          <id>ActionIQ</id>
+          <name>Action IQ</name>
+          <url>http://actioniq.co</url>
         </developer>
       </developers>
     )
