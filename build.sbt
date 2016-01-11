@@ -49,6 +49,8 @@ fork in (ThisBuild, Test) := true
 
 publishMavenStyle in (ThisBuild) := true
 
+publishArtifact in Test := false
+
 pomIncludeRepository in (ThisBuild) := { _ => false }
 
 licenses in (ThisBuild) := Seq(
