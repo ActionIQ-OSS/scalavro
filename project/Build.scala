@@ -108,6 +108,7 @@ object ScalavroBuild extends Build {
 
   lazy val publishSettings = Seq(
     publishMavenStyle := true,
+    publishArtifact in Test := false,
     pomIncludeRepository := { _ => false },
     licenses := Seq(
       "BSD-style" -> url("http://opensource.org/licenses/BSD-2-Clause")
